@@ -1,11 +1,7 @@
 # OPF-ADMM
 Using Alternating Direction Method of Multipliers to solve AC Optimal Power Flow Problem.
 
-Main file ayncADMM_acopf.py implements the application of using ADMM to solve AC OPF problem.
-
-opf_admm_model.py builds the subproblem object.
-
-runWorker implements the ADMM iterations.
+Main file ayncADMM_acopf.py implements the application of using ADMM to solve AC OPF problem.  opf_admm_model.py builds the subproblem object.  runWorker.py implements the ADMM iterations.
 
 Package Pypower 5.1.3 is used in this application.
 
